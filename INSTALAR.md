@@ -9,7 +9,7 @@ Si te atascas, abre Claude Code en la carpeta del CRM y pídele ayuda: `CLAUDE.m
 Abre la app **Terminal** y pega esto:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/cuentas-Ailink/crm-whatsapp-ia/main/instalar.sh | bash
+curl -fsSL https://raw.githubusercontent.com/itsninoduke/crm-whatsapp-ia/main/instalar.sh | bash
 ```
 
 Este comando necesita que el repositorio sea público. Con una copia privada, descarga la carpeta, entra en ella desde Terminal y ejecuta `bash instalar.sh`.

@@ -1,7 +1,7 @@
 #!/bin/bash
 # Instala o actualiza el CRM con una sola línea, y lo abre en el navegador.
 #
-#   curl -fsSL https://raw.githubusercontent.com/cuentas-Ailink/crm-whatsapp-ia/main/instalar.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/itsninoduke/crm-whatsapp-ia/main/instalar.sh | bash
 #   bash instalar.sh                  dentro de una copia del CRM: la prepara ahí mismo
 #   bash instalar.sh --sin-arrancar   lo deja todo listo sin abrirlo (para las pruebas y GitHub)
 #   … | sudo bash -s -- --servidor crm.tunegocio.com   en un VPS con Ubuntu 24.04 (ver DESPLEGAR.md)
@@ -18,7 +18,7 @@
 
 set -u
 
-URL_TARBALL="https://codeload.github.com/cuentas-Ailink/crm-whatsapp-ia/tar.gz/refs/heads/main"
+URL_TARBALL="https://codeload.github.com/itsninoduke/crm-whatsapp-ia/tar.gz/refs/heads/main"
 CARPETA=""
 MODO=""
 ARRANCAR=1
@@ -202,7 +202,7 @@ ARQUITECTURA=""
 CASA_CRM="/var/lib/crm"
 URL_NODE="https://nodejs.org/dist/latest-v24.x"
 SERVICIO="/etc/systemd/system/crm-whatsapp.service"
-INSTALADOR_URL="https://raw.githubusercontent.com/cuentas-Ailink/crm-whatsapp-ia/main/instalar.sh"
+INSTALADOR_URL="https://raw.githubusercontent.com/itsninoduke/crm-whatsapp-ia/main/instalar.sh"
 
 aviso() {
   printf '\033[33m! %s\033[0m\n' "$1"

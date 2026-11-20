@@ -37,13 +37,13 @@ El instalador del servidor se ha probado con `--simular`, que enseña cada paso 
 2. Pega esto, con tu dominio:
 
    ```bash
-   curl -fsSL https://raw.githubusercontent.com/cuentas-Ailink/crm-whatsapp-ia/main/instalar.sh | bash -s -- --servidor crm.tunegocio.com
+   curl -fsSL https://raw.githubusercontent.com/itsninoduke/crm-whatsapp-ia/main/instalar.sh | bash -s -- --servidor crm.tunegocio.com
    ```
 
    Si entras con un usuario que no es `root`, pon `sudo` delante de `bash`:
 
    ```bash
-   curl -fsSL https://raw.githubusercontent.com/cuentas-Ailink/crm-whatsapp-ia/main/instalar.sh | sudo bash -s -- --servidor crm.tunegocio.com
+   curl -fsSL https://raw.githubusercontent.com/itsninoduke/crm-whatsapp-ia/main/instalar.sh | sudo bash -s -- --servidor crm.tunegocio.com
    ```
 
 Lo que hace:

@@ -1,5 +1,7 @@
 # CRM de WhatsApp con IA
 
+> **Versión de Máquina IA.** Fork de [cuentas-Ailink/crm-whatsapp-ia](https://github.com/cuentas-Ailink/crm-whatsapp-ia) (comunidad AILINK, Agustín Medina), con licencia MIT: el crédito y la licencia originales se mantienen. Este fork se instala y se actualiza desde `itsninoduke/crm-whatsapp-ia`.
+
 Contesta a tus clientes por WhatsApp en segundos, les da cita y te avisa cuando te toca a ti.
 
 Funciona con la API oficial de WhatsApp de Meta, sin intermediarios. Tu web tiene un botón de WhatsApp: tu cliente te escribe con un mensaje ya puesto y tu asistente, con Claude, le contesta al momento, le pregunta lo que falta y le da cita en un hueco libre de tu agenda; cuando hace falta una persona, te lo pasa. Todo queda en un panel. Sirve para cualquier negocio: reformas, inmobiliaria, clínica o el tuyo. Licencia MIT y hecho con Claude Code.
@@ -15,7 +17,7 @@ Funciona con la API oficial de WhatsApp de Meta, sin intermediarios. Tu web tien
 Pega esto en la app Terminal de tu Mac:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/cuentas-Ailink/crm-whatsapp-ia/main/instalar.sh | bash
+curl -fsSL https://raw.githubusercontent.com/itsninoduke/crm-whatsapp-ia/main/instalar.sh | bash
 ```
 
 Funciona en un Mac con Node.js 22.13 o superior: si no lo tienes, el instalador te da el enlace.
